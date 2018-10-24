@@ -2,9 +2,7 @@
 
 const router = require('express').Router();
 
-router.use('/child', require('./routes/Child'));
-router.use('/parent', require('./routes/Parent'));
-router.use('/user', require('./routes/User'));
+router.use('/google', require('./routes/google'));
 
 router.use((req, res, next) => {
   const err = new Error('Not found.');

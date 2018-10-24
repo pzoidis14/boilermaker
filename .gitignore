@@ -10,3 +10,6 @@ npm-debug.log
 
 # OSX
 .DS_Store
+
+# Google client ID & secret
+localSecrets.js

@@ -1,7 +1,7 @@
 'use strict';
 
 const router = require('express').Router();
-const { Child, Parent } = require('../db');
+const { Child, Parent } = require('../../db');
 
 module.exports = router;
 
